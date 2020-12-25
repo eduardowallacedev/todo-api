@@ -21,7 +21,7 @@ import io.github.projetosdev.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("https://eduardowallacedev.github.io/")
+@CrossOrigin("*")
 
 public class TodoController {
 	
